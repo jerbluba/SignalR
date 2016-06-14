@@ -1,0 +1,83 @@
+﻿html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+        margin: 0;
+}
+
+.hide {
+    display: none;
+    color: red;
+}
+
+#mappic {/*
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;*/
+         top:0;
+		left:0;
+}
+.space,form {
+    position:absolute;
+
+}
+form {
+    top:0px;
+}
+input{
+    background:transparent;
+    position:relative;
+    
+}
+
+input[type=button] {
+    border:0px;
+}
+
+input[type=button]:focus {
+    border:2px;
+}
+input[type=button]:hover {
+    border:2px;
+    cursor:pointer;
+}
+
+label {
+ position:relative;
+
+}
+#icon {
+    background:url(../pic/icons.jpg);
+    margin:auto;
+    position:relative;      
+          
+}
+.icon {
+    background:url(../pic/icons.jpg);
+    margin:auto;
+    position:relative;      
+          
+}
+
+    #icon:hover {
+        cursor:pointer;
+    }
+    
+.show,.show2 {
+    position:absolute;
+    overflow:auto;
+}
+td{
+        vertical-align: middle;
+
+}
+li {
+    display:block;
+}

@@ -1,0 +1,95 @@
+﻿ 
+        #userName {
+            display: none;
+            color: red;
+        }
+
+body {
+
+    background:url(../pic/game.jpg);
+    background-repeat: no-repeat;
+}
+  
+
+	*{padding:0;margin:0}
+	body{
+		text-align:center
+	}
+	.ly-plate{
+		position:relative;
+		width:255px;
+		height:255px;
+		margin: 0px auto;
+	}
+	.rotate-bg{
+		width:255px;
+		height:255px;
+		background:url(../pic/circle.gif);
+        background-repeat: round;
+		position:absolute;
+		top:0;
+		left:0
+	}
+	.ly-plate div.lottery-star{
+		width:214px;
+		height:214px;
+		position:absolute;
+		top:0px;
+		left:0px;
+		text-indent:-999em;
+		overflow:hidden;
+		-webkit-transform:rotate(0deg);
+		outline:none;
+                top: 75px;
+    left: 75px;
+	}
+
+    div > img {
+    -webkit-transform: translate(-50%, -50%);
+    width:50%;
+    height:50%;
+
+
+}
+
+	.ly-plate div.lottery-star #lotteryBtn{
+		cursor: pointer;
+		position: absolute;
+		top:0;
+		left:0;
+		*left:-107px
+	}
+
+    
+        #keyBoard {
+            display:none;
+        }
+
+
+
+#blockUI {
+     position:absolute;
+     z-index:10000;
+        background-color:green;
+        opacity:0.5;
+        color:blue;
+        min-width:100%;
+        min-height:100%;
+        top:0px;
+}
+.dice{
+    width:40px;
+    height:50px;
+    background:url(../pic/dice.jpg)  -6px -14px;
+    margin:auto;
+
+}
+.middle {
+    max-width:100%;
+    min-width:100%;
+    margin:auto;
+}
+#event{
+    overflow-y:auto;
+
+}
